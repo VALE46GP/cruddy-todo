@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const sprintf = require('sprintf-js').sprintf;
 
-var lastCount = require('./data/counter.txt');
+// var lastCount = require('./data/counter.txt');
 var counter = 0;
 
 // Private helper functions ////////////////////////////////////////////////////

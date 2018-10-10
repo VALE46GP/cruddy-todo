@@ -39,7 +39,7 @@ exports.readOne = (id, callback) => {
 exports.readAll = (callback) => {
   fs.readdir(exports.dataDir, (err, files) => {
     if (err) {
-      throw('error reading directory');
+      throw ('error reading directory');
     }
     var dirFiles = _.map(files, (file) => {
       var id = file.slice(0, -4);
